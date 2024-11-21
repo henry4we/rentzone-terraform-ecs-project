@@ -1,5 +1,4 @@
 #Environment variable
-
 variable "region" {
   description = "Specifies the AWS region for deployment."
   type        = string
