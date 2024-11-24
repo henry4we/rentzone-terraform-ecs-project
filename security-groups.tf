@@ -101,7 +101,7 @@ resource "aws_security_group" "database_security_group" {
   ingress {
     description      = "mysql/aurora access"
     from_port        = 3306
-    to_port          = 3308
+    to_port          = 3306
     protocol         = "tcp"
     security_groups  = [aws_security_group.app_server_security_group.id]
   }
