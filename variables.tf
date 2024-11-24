@@ -58,3 +58,10 @@ variable "private_data_subnet_az2_cidr" {
   description = "CIDR block for Private data Subnet AZ2"
   type        = string
 }
+
+
+# Security Groups Variables
+variable "ssh_location" {
+  description = "IP address that can SSH into the instances"
+  type        = string
+}
